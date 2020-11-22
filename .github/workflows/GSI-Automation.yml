@@ -5,9 +5,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/OnePlus6/MP/OnePlus6Hydrogen_22.K.48_OTA_048_all_2010222226_1b45b82013ae43a6.zip
-  ROM_NAME: OxygenOS
-  TZ: Asia/Shanghai
+  ROM_URL: https://master.dl.sourceforge.net/project/pixelextended/Lavender/PixelExtended_lavender-11-20201121-2012-OFFICIAL.zip
+  ROM_NAME: PixelExtended
+  TZ: America/Bahia
 
 jobs:
   build:
@@ -55,6 +55,3 @@ jobs:
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer wet final/GSI.zip
-
-         
-            
