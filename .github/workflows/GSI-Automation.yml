@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/pixelextended/Lavender/PixelExtended_lavender-11-20201121-2012-OFFICIAL.zip
-  ROM_NAME: PixelExtended
+  ROM_URL: https://dl.google.com/developers/android/sc/images/factory/bramble-spp1.210122.020.a3-factory-d0709df3.zip
+  ROM_NAME: Pixel 3
   TZ: America/Bahia
 
 jobs:
