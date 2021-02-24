@@ -6,7 +6,7 @@ on:
     
 env:
   ROM_URL: https://dl.google.com/developers/android/sc/images/factory/bramble-spp1.210122.020.a3-factory-d0709df3.zip
-  ROM_NAME: Pixel 3
+  ROM_NAME: generic
   TZ: America/Bahia
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
        
        - name: Setting up ErfanGSI requirements
          run: |
-              sudo chmod -R 777 ErfanGSIs
+              sudo chmod -S 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
               sudo sed -i '7c AB=true' url2GSI.sh
