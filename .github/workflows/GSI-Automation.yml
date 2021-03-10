@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/pixelextended/Lavender/PixelExtended_lavender-11-20201121-2012-OFFICIAL.zip
-  ROM_NAME: PixelExtended
+  ROM_URL: https://dl.google.com/developers/android/sc/images/factory/sunfish-spp1.210122.022-factory-40956626.zip
+  ROM_NAME:pixel 4a
   TZ: America/Bahia
 
 jobs:
