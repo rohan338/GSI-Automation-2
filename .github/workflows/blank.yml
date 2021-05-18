@@ -6,7 +6,7 @@ on:
     
 env:
   ROM_URL: https://dl.google.com/developers/android/sc/images/factory/bramble-spp1.210122.020.a3-factory-d0709df3.zip
-  ROM_NAME: generic
+  ROM_NAME: Pixel
   TZ: America/Bahia
 
 jobs:
